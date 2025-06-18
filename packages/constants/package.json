@@ -1,0 +1,26 @@
+{
+  "name": "@lwh/constants",
+  "version": "2.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/types/src/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "module": "dist/esm/index.js",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && rolldown -c rolldown.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}

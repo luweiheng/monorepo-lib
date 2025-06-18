@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "✨ changesets-demo",
+			"path": "."
+		},
+		{
+			"name": "📦 @lwh/constants",
+			"path": "packages/constants"
+		},
+		{
+			"name": "📦 @lwh/utils",
+			"path": "packages/utils"
+		}
+	],
+	"settings": {}
+}
