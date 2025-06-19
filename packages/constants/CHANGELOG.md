@@ -1,5 +1,11 @@
 # @lwh/constants
 
+## 5.0.0
+
+### Major Changes
+
+- 0507b0a: 5
+
 ## 4.0.0
 
 ### Major Changes
