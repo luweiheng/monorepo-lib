@@ -1,5 +1,5 @@
 {
-  "name": "@lwh/constants",
+  "name": "lwh-constants",
   "version": "5.0.0",
   "description": "",
   "main": "dist/index.js",
