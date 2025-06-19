@@ -4,7 +4,9 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-
+env:
+  CI: true
+  PNPM_CACHE_FOLDER: .pnpm-store
 jobs:
   version-and-release:
     name: Version and Release
@@ -29,6 +31,10 @@ jobs:
         uses: pnpm/action-setup@v2
         with:
           version: 8
+      - name: Setup npmrc
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > .npmrc
+      - name: setup pnpm config
+        run: pnpm config set store-dir $PNPM_CACHE_FOLDER
 
       - name: Install dependencies
         run: pnpm install
