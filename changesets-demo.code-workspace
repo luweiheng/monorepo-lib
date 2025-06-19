@@ -5,11 +5,11 @@
 			"path": "."
 		},
 		{
-			"name": "📦 @lwh/constants",
+			"name": "📦 lwh-constants",
 			"path": "packages/constants"
 		},
 		{
-			"name": "📦 @lwh/utils",
+			"name": "📦 lwh-utils",
 			"path": "packages/utils"
 		}
 	],
