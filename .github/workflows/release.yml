@@ -47,6 +47,11 @@ jobs:
       - name: Reinstall dependencies
         run: pnpm install
 
+      - name: Debug Tokens
+        run: |
+          echo "NPM_USER: $(npm whoami)"
+          echo "REGISTRY: $(npm config get registry)"
+
       - name: Publish packages
         run: pnpm release --access public
         env:
