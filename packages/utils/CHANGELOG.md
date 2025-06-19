@@ -1,5 +1,12 @@
 # lwh-utils1
 
+## 3.0.0
+
+### Major Changes
+
+- a486ede: 3
+- 78ec412: 3.0
+
 ## 2.0.0
 
 ### Major Changes
