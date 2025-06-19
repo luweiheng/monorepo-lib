@@ -1,5 +1,11 @@
 # @lwh/constants
 
+## 6.0.0
+
+### Major Changes
+
+- cd2f707: 6
+
 ## 5.0.0
 
 ### Major Changes
